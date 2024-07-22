@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    margin: 0;
+    width: 250px;
+    padding: 0%;
+    height: 180px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content button {
+    background: #db0001;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drama-section {
+    padding: 50px 8%;
+}
+
+.drama-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.drama-list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.drama-item {
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+.drama-item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.drama-item h3 {
+    text-align: center;
+    margin-top: 10px;
+}
